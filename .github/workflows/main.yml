@@ -11,7 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing'
-        run: pwd
-      - name: 'Testing 2'
-        run: echo Aya
+      - name: 'printing folder'
+        run: ls
